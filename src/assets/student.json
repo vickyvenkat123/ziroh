@@ -1,0 +1,26 @@
+[
+    {
+
+    "Id": 1,
+    "Name":"venkat",
+    "Address":"abc",
+    "Marks":"80",
+    "Status":"pass"
+},
+{
+
+    "Id": 2,
+    "Name":"ram",
+    "Address":"def",
+    "Marks":"30",
+    "Status":"fail"
+},
+{
+
+    "Id": 3,
+    "Name":"ramesh",
+    "Address":"ghi",
+    "Marks":"45",
+    "Status":"pass"
+}
+]

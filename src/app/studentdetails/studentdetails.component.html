@@ -1,0 +1,30 @@
+<div class="form-group row">
+
+    <div class="col-sm-6">
+<input type="text" class="form-control" id="search"/>
+    </div>
+
+
+
+<table class="table">
+    <thead class="dark">
+  <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Address</td>
+    <td>Marks</td>
+    <td>Status</td>
+  </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let student of students">
+<td scope="col">{{student.id}}</td>
+<td scope="col">{{student.Name}}</td>
+<td scope="col">{{student.Address}}</td>
+<td scope="col">{{student.Marks}}</td>
+<td scope="col">{{student.Status}}</td>
+</tr>
+</tbody>
+
+</table>
+</div>
